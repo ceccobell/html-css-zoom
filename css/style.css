@@ -13,6 +13,15 @@
     flex-wrap: wrap;
 }
 
+.height-main {
+    height: 70vh;
+}
+
+.height-footer {
+    height: 30vh;
+}
+
+
 .col-photo {
     width: calc(100% / 7 - 4px);
     margin: 2px;
@@ -26,6 +35,7 @@
 
 .img {
     width: 100%;
+    height: calc(60vh / 5);
 }
 
 .name {
@@ -34,7 +44,7 @@
     background-color: rgba(223, 220, 220, 0.596);
     padding: 5px;
     position: absolute;
-    bottom: 5px;
+    bottom: 8px;
     left: 0;
 }
 
